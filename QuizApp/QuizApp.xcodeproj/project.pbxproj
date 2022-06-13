@@ -15,6 +15,7 @@
 		00D1233D2856E1F2002B104C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D1233B2856E1F2002B104C /* LaunchScreen.storyboard */; };
 		00D123452856E4D5002B104C /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D123442856E4D5002B104C /* QuizViewController.swift */; };
 		00D123472856E59C002B104C /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D123462856E59C002B104C /* ScoreViewController.swift */; };
+		00D1234B285706AF002B104C /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 00D1234A285706AF002B104C /* quiz.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		00D1233E2856E1F2002B104C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00D123442856E4D5002B104C /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		00D123462856E59C002B104C /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		00D1234A285706AF002B104C /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				00D123362856E1F0002B104C /* Main.storyboard */,
 				00D123462856E59C002B104C /* ScoreViewController.swift */,
 				00D123442856E4D5002B104C /* QuizViewController.swift */,
+				00D1234A285706AF002B104C /* quiz.csv */,
 				00D123392856E1F2002B104C /* Assets.xcassets */,
 				00D1233B2856E1F2002B104C /* LaunchScreen.storyboard */,
 				00D1233E2856E1F2002B104C /* Info.plist */,
@@ -133,6 +136,7 @@
 			files = (
 				00D1233D2856E1F2002B104C /* LaunchScreen.storyboard in Resources */,
 				00D1233A2856E1F2002B104C /* Assets.xcassets in Resources */,
+				00D1234B285706AF002B104C /* quiz.csv in Resources */,
 				00D123382856E1F0002B104C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
