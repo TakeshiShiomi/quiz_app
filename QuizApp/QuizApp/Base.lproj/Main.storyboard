@@ -154,8 +154,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGq-48-iBW">
-                                <rect key="frame" x="171.5" y="130" width="71" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGq-48-iBW">
+                                <rect key="frame" x="20" y="130" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -166,6 +166,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="トップ画面へ">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="toTopButtonAction:" destination="MRH-10-b43" eventType="touchUpInside" id="MhM-Gj-Ata"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bas-Oi-oku"/>
@@ -178,10 +181,13 @@
                             <constraint firstItem="rGq-48-iBW" firstAttribute="centerY" secondItem="9r4-oA-Z0W" secondAttribute="centerY" constant="-300" id="vFA-3G-6rg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="rGq-48-iBW" id="bac-hl-6Vn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WI9-fc-Ded" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1516" y="59"/>
+            <point key="canvasLocation" x="1515.9420289855075" y="58.928571428571423"/>
         </scene>
     </scenes>
     <resources>
