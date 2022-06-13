@@ -16,6 +16,10 @@ class QuizViewController: UIViewController {
     }
     
 
+    @IBAction func btnAction(sender: UIButton) {
+        print(sender.tag)
+    }
+    
     /*
     // MARK: - Navigation
 
